@@ -21,6 +21,7 @@
 }
 
 .experienceBar > div > div {
+    transition: width 500ms;
     background: var(--green);
 }
 
@@ -28,4 +29,5 @@
     top: 12px;
     position: absolute;
     transform: translateX(-50%);
+    transition: left 500ms;
 }
